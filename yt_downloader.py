@@ -1,7 +1,8 @@
-#  pip install yt-dlp
+#  uv add yt-dlp
+#  uv add ruff 
 from yt_dlp import YoutubeDL
 
-URLS = ["https://www.youtube.com/watch?v=kJy7LF789lo"]
+URLS = [""]
 
 with YoutubeDL() as ydl:
     ydl.download(URLS)
