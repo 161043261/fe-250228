@@ -2,7 +2,7 @@
 import { app, shell, BrowserWindow } from 'electron'
 import { join } from 'path'
 import { electronApp, optimizer, is } from '@electron-toolkit/utils'
-import icon from '../../resources/icon.png?asset'
+import icon from '../../resources/icon.jpg?asset'
 import './ipc' //! 副作用导入, 仅执行模块的全局代码, 不导入任何值
 
 function createWindow(): void {

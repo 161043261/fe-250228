@@ -1,5 +1,5 @@
 #  uv add yt-dlp
-#  uv add ruff 
+#  uv add ruff
 from yt_dlp import YoutubeDL
 
 URLS = [""]
