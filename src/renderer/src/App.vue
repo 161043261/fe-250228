@@ -10,7 +10,9 @@ import CopyrightInfo from '@renderer/components/copyright-info.vue'
 
 <template>
   <main>
-    <NavigationBar></NavigationBar> <RouterView></RouterView> <CopyrightInfo class="mt-2" />
+    <NavigationBar />
+    <RouterView />
+    <CopyrightInfo class="mt-2" />
   </main>
 </template>
 
